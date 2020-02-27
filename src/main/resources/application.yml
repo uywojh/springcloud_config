@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: CLOUD-CONFIG
+  profiles: cloud-config1
   cloud:
     config:
       # 对应分支
