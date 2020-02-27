@@ -92,19 +92,15 @@
         </plugins>
     </build>
 
-    <repositories>
-        <!--从私服中获取主要依赖 -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://172.16.246.128:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
         <repository>
-            <id>nexus</id>
-            <name>Nexus Repository</name>
-            <url>http://172.16.246.128:8081/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
+            <id>nexus-releases</id>
+            <url>http://172.16.246.128:8081/repository/maven-releases/</url>
         </repository>
-    </repositories>
+    </distributionManagement>
 
 </project>
