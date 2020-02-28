@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: CLOUD-CONFIG
+    name: cloud-config
   profiles: cloud-config1
   cloud:
     config:
