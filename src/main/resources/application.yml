@@ -22,7 +22,7 @@ eureka:
   instance:
     hostname: 172.16.246.128        #Gateway实例的主机名
     prefer-ip-address: true
-    instance-id: 172.16.246.128:8861
+    instance-id: cloud-config
   client:
     serviceUrl:
       defaultZone: http://172.16.246.128:8761/eureka,http://172.16.246.128:8762/eureka
