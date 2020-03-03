@@ -11,12 +11,12 @@ spring:
       label: master
       server:
         git:
-          # git地址
-          uri: https://github.com/uywojh/springcloud_profile.git
-          # 远程目录
-          search-paths: cloud
-          username: *******@qq.com
-          password: *********
+#          # git地址
+#          uri: https://github.com/uywojh/springcloud_profile.git
+#          # 远程目录
+#          search-paths: cloud
+#          username: 664507439@qq.com
+#          password: wu15180180820
 
 eureka:
   instance:
